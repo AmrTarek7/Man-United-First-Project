@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amr || Tarek</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="website icon"
+      type="png"
+      href="./Photo/manchester-united-icon-504x512-jrn1vdxi.png"
+    />
+  </head>
+  <body>
+    <header class="site-header overflow-hidden">
+      <div class="container">
+        <div class="row">
+          <div id="massege-header" class="col-lg-12 col-12 d-flex flex-wrap">
+            <p class="d-flex me-4 mb-0 fs-18px text-center">
+              <i class="bi-person custom-icon me-2 text-white"></i>
+              <a
+                href="https://www.instagram.com/amr_tarek8?igsh=dWxoc2liaHU1eHNl"
+                target="_blank"
+                class="text-decoration-none"
+                onclick="openPopup()"
+              >
+                <strong class="text-dark --font-outfit">
+                  Welcome to
+                  <span class="text-white">Amr || Tarek </span> 2024</strong
+                ></a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!---------- End Header NAV BAR ------------->
+
+    <nav class="navbar navbar-expand-lg bg-gray" id="Nav-bar">
+      <div class="container">
+        <a
+          class="navbar-brand fw-bolder fs-3 Mant-utd transit"
+          href="/index.html"
+          >|Man United|</a
+        >
+        <button
+          class="navbar-toggler bg-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar"
+          aria-controls="navbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse fs-5 justify-content-end"
+          id="navbar"
+        >
+          <ul class="navbar-nav me-0 mb-2 mb-lg-0">
+            <li class="nav-item me-lg-2">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#carouselExampleDark"
+                ><span class="text-white">HOME</span></a
+              >
+            </li>
+            <li class="nav-item me-lg-2">
+              <a class="nav-link" href="#Sec-3 Logos"
+                ><span class="text-white">ABOUT US</span></a
+              >
+            </li>
+            <li class="nav-item me-lg-2">
+              <a class="nav-link" href="#Section-5-LapTop"
+                ><span class="text-white">SERVICES</span></a
+              >
+            </li>
+            <li class="nav-item me-lg-2">
+              <a class="nav-link" href="#Sec-6-See-what"
+                ><span class="text-white">BLOG</span></a
+              >
+            </li>
+            <li class="nav-item me-lg-2">
+              <a class="nav-link" href="#footer"
+                ><span class="text-white">CONTENT</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!---------- End Style NAV BAR ------------->
+
+    <div
+      id="carouselExampleDark"
+      class="carousel carousel-dark slide imges"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="0"
+          class="active bg-white"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          class="bg-white"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          class="bg-white"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+
+      <!----------------------
+              START  iMGES SLIDER
+      --------------------->
+
+      <div class="carousel-inner h-100">
+        <!---------------------- iMGE 1 --------------------->
+        <div class="carousel-item c-items" data-bs-interval="5000">
+          <img src="Photo/IMG1.jpeg" class="d-block w-100 c-imgs" alt="..." />
+          <div class="carousel-caption d-block text-white top-0 mt-4">
+            <div class="text-center mt-5">
+              <p class="text-uppercase fs-3">The season has arrived</p>
+              <p class="display-1 fw-bolder text-capitalize">
+                3 available tours
+              </p>
+              <button
+                title="click tis button to oppen the modal"
+                class="btn btn-danger px-4 py-2 fs-5 mt-5"
+                data-bs-toggle="modal"
+                data-bs-target="#SingUp1"
+              >
+                Sign Up Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <!---------------------- iMGE 2 --------------------->
+
+        <div class="carousel-item c-items" data-bs-interval="5000">
+          <img src="Photo/IMG2.jpeg" class="d-block w-100 c-imgs" alt="..." />
+          <div class="carousel-caption d-block text-white top-0 mt-4">
+            <div class="text-center  mt-5">
+              <p class="text-uppercase fs-3">Destination activities</p>
+              <p class="display-1 fw-bolder text-capitalize">
+                Go glacier hiking
+              </p>
+              <button
+                title="click tis button to oppen the modal"
+                class="btn btn-danger px-4 py-2 fs-5 mt-5"
+                data-bs-toggle="modal"
+                data-bs-target="#SingUp2"
+              >
+                Sign Up Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <!---------------------- iMGE 3 --------------------->
+
+        <div class="carousel-item c-items active" data-bs-interval="8000">
+          <img
+            src="Photo/img-body.jpeg"
+            class="d-block w-100 c-img-3"
+            alt="..."
+          />
+          <div
+            class="carousel-caption d-block text-white top-0 mt-4 text-center"
+          >
+            <div class="text-center mt-5">
+              <p class="fs-3 text-uppercase">Discover the hidden world</p>
+              <h1 class="display-1 fw-bolder text-capitalize">
+                The Aurora Tours
+              </h1>
+              <button
+                title="click tis button to oppen the modal"
+                class="btn btn-danger px-4 py-2 fs-5 mt-5"
+                data-bs-toggle="modal"
+                data-bs-target="#SingUp3"
+              >
+                Sign Up Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!----------------------
+              END  iMGES SLIDER
+      --------------------->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev"
+      >
+        <span class="" aria-hidden="true"
+          ><i class="bi bi-caret-left i-3rem"></i>
+        </span>
+        <span class="visually-hidden text-white text-bg-white">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="next"
+      >
+        <span class="" aria-hidden="true"
+          ><i class="bi bi-arrow-right-circle i-3rem"></i
+        ></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!---------- End Style Slider ------------->
+
+    <section
+      id="Sec-3 Logos"
+      class="bg-light d-flex justify-content-center pt-4 pb-4 overflow-hidden"
+    >
+      <div class="container row row-cols-1 row-cols-xl-3" id="logo">
+        <div class="mb-4 mb-xl-0 text-center">
+          <div class="i44"><i class="bi bi-gear-fill i-fs"></i></div>
+          <h2 class="fs-2 fw-bold">Turning Gears</h2>
+          <h5 class="fs-5 color-gray fw-medium lh-base pt-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
+            eveniet aspernatur!
+          </h5>
+        </div>
+        <div class="mb-4 mb-xl-0 text-center">
+          <div class="i44">
+            <i class="bi bi-cloud-lightning-rain-fill i-fs"></i>
+          </div>
+          <h2 class="fs-2 fw-bold">Turning Gears</h2>
+          <h5 class="fs-5 color-gray fw-medium lh-base pt-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
+            eveniet aspernatur!
+          </h5>
+        </div>
+        <div class="text-center">
+          <div class="i44"><i class="bi bi-cart-plus-fill i-fs"></i></div>
+          <h2 class="fs-2 fw-bold">Turning Gears</h2>
+          <h5 class="fs-5 color-gray fw-medium lh-base pt-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
+            eveniet aspernatur!
+          </h5>
+        </div>
+      </div>
+    </section>
+    <!---------- End Style Sec-3 Logos ------------->
+
+    <section id="Sec-4-Are-U-ready">
+      <div class="container text-center pt-7 pb-6">
+        <h1 class="text-white fw-medium pb-2">Are You Ready To Get Started?</h1>
+        <h2 class="fs-5 text-white fw-normal">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet hic
+          perferendis quaerat animi provident molestias!
+        </h2>
+      </div>
+    </section>
+
+    <!---------- End Style Sec-4 Are U ready? ------------->
+
+    <section id="Section-5-LapTop" class="bg-light py-6 overflow-hidden">
+      <div class="container">
+        <div class="row justify-content-evenly align-items-center">
+          <div class="col-6 pt-5 mb-0 mb-5 mb-lg-0 article-lab">
+            <h1>Lorem Ipsum</h1>
+            <h4 class="fs-5 lh-lg pb-4 pt-1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
+              aliquam. Tempora iste sit nisi adipisicing elit. Incidunt it amet
+              elit .
+            </h4>
+            <div>
+              <button
+                type="button"
+                class="btn btn-outline-danger py-3 px-4 fs-5 fw-bold border-2"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+
+          <div class="img-lab col-6">
+            <img src="./Photo/laptop.png " class="w-100 h-100" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------- End Style Section-5 LapTop sec ------------->
+
+    <section
+      class="d-flex justify-content-center overflow-hidden"
+      id="Sec-6-See-what"
+    >
+      <div
+        class="container text-center text-white pt-4 pb-5 d-flex justify-content-center position-relative row"
+      >
+        <div class="col-12 mb-4 mb-sm-0 shake shake">
+          <i
+            class="bi bi-play-fill i-fs-10rem"
+            title="click tis button to oppen the modal"
+            class="btn btn-danger px-5 py-3 fs-5 mt-4"
+            data-bs-toggle="modal"
+            data-bs-target="#videoModal"
+          ></i>
+        </div>
+
+        <h1 class="fs-7 fw-bold position-absolute bottom-h1 shake">
+          See What We Do
+        </h1>
+      </div>
+    </section>
+    <!---------- End Style Section-6 See What We Do ------------->
+
+    <footer id="footer" class="py-5">
+      <div class="container d-flex flex-column justify-content-center">
+        <h1 class="text-center text-white fw-bold pb-4">Testimonials</h1>
+
+        <div
+          id="myCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="7000"
+        >
+          <!---------------------------------------
+            Start  Slider Text
+          ----------------------------------------->
+          <div class="carousel-inner">
+            <div class="carousel-item carousel-text">
+              <div class="d-block w-100 text-start text-center">
+                <p class="text-dark fs-4 fw-medium pt-3 text-white">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit
+                  cum?
+                </p>
+                <p class="text-black pt-2 fs-5 fw-normal">
+                  Amr Tarek from a Compony N2
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item carousel-text">
+              <div class="d-block w-100 text-center">
+                <p class="text-dark fs-4 fw-medium pt-3 text-white">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit
+                  cum?
+                </p>
+                <p class="text-black pt-2 fs-5 fw-normal">
+                  Lorem from a Compony N2
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item carousel-text active">
+              <div class="d-block w-100 text-center">
+                <p class="text-dark fs-4 fw-medium pt-3 text-white">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit
+                  cum?
+                </p>
+                <p class="text-black pt-2 fs-5 fw-normal">
+                  C Ronaldo from a Compony N2
+                </p>
+              </div>
+            </div>
+          </div>
+          <!---------------------------------------
+            Start  Slider Text
+          ----------------------------------------->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <div class="row text-center pt-5 d-flex justify-content-center">
+          <h1 class="col-12 text-center mb-4 text-white">
+            Frequent Asked Questions
+          </h1>
+
+          <!--------------------------- 
+              Start Question Accordion
+          ---------------------------->
+
+          <div class="col-12 row">
+            <!---------------------------  Start Question Accordion 1 ---------------------------->
+            <div class="col-12 col-lg-6 accordion" id="Questions-G1">
+              <!-------- -------------------->
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="HeadingOne">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="false"
+                    aria-controls="collapseOne"
+                  >
+                    Qusetion One
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="HeadingOne1"
+                  data-bs-parent=""
+                >
+                  <div class="accordion-body">
+                    <strong
+                      >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ipsam deleniti, molestias praesentium voluptatum eos
+                      consequatur in. Adipisci, hic? Omnis, nobis!
+                      <code>.accordion-body</code>, though the transition does
+                      limit overflow.</strong
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-------- -------------------->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="HeadingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Qusetion Two
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="HeadingTow"
+                >
+                  <div class="accordion-body">
+                    <strong
+                      >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nam reiciendis laboriosam odio perferendis quod!
+                      Architecto iure vel neque quibusdam. Aliquam molestias
+                      fuga deserunt deleniti vero molestiae voluptas omnis at
+                      cupiditate.</strong
+                    >
+                    <code>lorem3</code>
+                  </div>
+                </div>
+              </div>
+              <!-------- -------------------->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="HeadingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Question Three
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="HeadingThree"
+                >
+                  <div class="accordion-body">
+                    <strong
+                      >This is the third item's accordion body. It is hidden by
+                      default, until the collapse plugin adds the appropriate
+                      classes that we use to style each element. These classes
+                      control the overall appearance, as well as the showing and
+                      hiding via CSS transitions. You can modify any of this
+                      with custom CSS or overriding our default variables. It's
+                      also worth noting that just about any HTML can go within
+                      the <code>.accordion-body</code>, though the transition
+                      does limit overflow.</strong
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-------- -------------------->
+            </div>
+            <!---------------------------  Start Question Accordion 2 ---------------------------->
+            <div class="col-12 col-lg-6 accordion" id="Questions-G2">
+              <!-------- -------------------->
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="HeadingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="true"
+                    aria-controls="collapseFour"
+                  >
+                    Qusetion Four
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="HeadingFour"
+                  data-bs-parent=""
+                >
+                  <div class="accordion-body">
+                    <strong
+                      >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ipsam deleniti, molestias praesentium voluptatum eos
+                      consequatur in. Adipisci, hic? Omnis, nobis!
+                      <code>.accordion-body</code>, though the transition does
+                      limit overflow.</strong
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-------- -------------------->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="HeadingFive">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    Qusetion Five
+                  </button>
+                </h2>
+                <div
+                  id="collapseFive"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="HeadingFive"
+                >
+                  <div class="accordion-body">
+                    <strong
+                      >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nam reiciendis laboriosam odio perferendis quod!
+                      Architecto iure vel neque quibusdam. Aliquam molestias
+                      fuga deserunt deleniti vero molestiae voluptas omnis at
+                      cupiditate.</strong
+                    >
+                    <code>lorem3</code>
+                  </div>
+                </div>
+              </div>
+              <!-------- -------------------->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="HeadingSix">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseSix"
+                    aria-expanded="false"
+                    aria-controls="collapseSix"
+                  >
+                    Question Six
+                  </button>
+                </h2>
+                <div
+                  id="collapseSix"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="HeadingSix"
+                >
+                  <div class="accordion-body">
+                    <strong
+                      >This is the third item's accordion body. It is hidden by
+                      default, until the collapse plugin adds the appropriate
+                      classes that we use to style each element. These classes
+                      control the overall appearance, as well as the showing and
+                      hiding via CSS transitions. You can modify any of this
+                      with custom CSS or overriding our default variables. It's
+                      also worth noting that just about any HTML can go within
+                      the <code>.accordion-body</code>, though the transition
+                      does limit overflow.</strong
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-------- -------------------->
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!----------------
+      Button sign Up
+    ------------------>
+
+    <!-- Model1 ntm1 -->
+    <div class="modal fade" id="SingUp1" data-bs-backdrop="static">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header bg-danger">
+            <h2 class="text-white">Sign Up</h2>
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3 text-star text-dark">
+                <label class="form-label text-star" for="">Name</label>
+                <input class="form-control" type="text" />
+              </div>
+
+              <div class="mb-3 text-star text-dark">
+                <label class="form-label text-star" for="">Email</label>
+                <input class="form-control" type="text" />
+                <div id="emailHelp" class="form-text text-start">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <p class="form-label text-dark" for="">Password</p>
+                <input class="form-control" type="password" />
+              </div>
+
+              <div class="mb-3">
+                <p class="form-label text-dark" for="">Confirm Password</p>
+                <input class="form-control" type="password" />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              data-bs-dismiss="modal"
+              class="btn btn-danger"
+              type="button"
+            >
+              Cancel
+            </button>
+            <button
+              data-bs-dismiss="modal"
+              class="btn btn-success"
+              type="submit"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Model2 ntm -->
+    <div class="modal fade" id="SingUp2" data-bs-backdrop="static">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header bg-danger">
+            <h2 class="text-white">Sign Up</h2>
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3 text-star text-dark">
+                <label class="form-label text-star" for="">Name</label>
+                <input class="form-control" type="text" />
+              </div>
+
+              <div class="mb-3 text-star text-dark">
+                <label class="form-label text-star" for="">Email</label>
+                <input class="form-control" type="text" />
+                <div id="emailHelp" class="form-text text-start">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <p class="form-label text-dark" for="">Password</p>
+                <input class="form-control" type="password" />
+              </div>
+
+              <div class="mb-3">
+                <p class="form-label text-dark" for="">Confirm Password</p>
+                <input class="form-control" type="password" />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              data-bs-dismiss="modal"
+              class="btn btn-danger"
+              type="button"
+            >
+              Cancel
+            </button>
+            <button
+              data-bs-dismiss="modal"
+              class="btn btn-success"
+              type="submit"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Model3 ntm -->
+    <div class="modal fade" id="SingUp3" data-bs-backdrop="static">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header bg-danger">
+            <h2 class="text-white">Sign Up</h2>
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3 text-star text-dark">
+                <label class="form-label text-star" for="">Name</label>
+                <input class="form-control" type="text" />
+              </div>
+
+              <div class="mb-3 text-star text-dark">
+                <label class="form-label text-star" for="">Email</label>
+                <input class="form-control" type="text" />
+                <div id="emailHelp" class="form-text text-start">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <p class="form-label text-dark" for="">Password</p>
+                <input class="form-control" type="password" />
+              </div>
+
+              <div class="mb-3">
+                <p class="form-label text-dark" for="">Confirm Password</p>
+                <input class="form-control" type="password" />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              data-bs-dismiss="modal"
+              class="btn btn-danger"
+              type="button"
+            >
+              Cancel
+            </button>
+            <button
+              data-bs-dismiss="modal"
+              class="btn btn-success"
+              type="submit"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Model4 Video ntm -->
+
+    <div
+      class="modal fade"
+      id="videoModal"
+      tabindex="-1"
+      aria-labelledby="videoModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="videoModalLabel">Video Modal</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="ratio ratio-16x9">
+              <iframe
+                class="h-100 w-100"
+                autopaly="true"
+                src="https://www.youtube.com/embed/4tV5NMUd5-0"
+                title="القاضيه ممكن"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                autoplay
+              ></iframe>
+              <!-- <video type="mp4" src="./video/1.mp4"></video> -->
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------------
+      Button sign Up & Btn Video
+    ------------------>
+
+    <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="./PageTask5.js"></script>
+  </body>
+</html>

@@ -1,0 +1,558 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 2000px;
+  margin: auto;
+}
+
+h2 {
+  margin: 0;
+}
+
+body {
+  background: #fff;
+}
+
+p {
+  margin: 0;
+}
+
+/*---------------------------------------
+End Globle Style              
+-----------------------------------------*/
+
+/*---------------------------------------
+Start customize bootStrab classes            
+-----------------------------------------*/
+/* :root {
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+} */
+.pt-6 {
+  padding-top: 4rem !important;
+}
+
+.pt-7 {
+  padding-top: 5.5rem;
+}
+.pb-6 {
+  padding-bottom: 5rem;
+}
+
+.pb-7 {
+  padding-bottom: 6.5rem;
+}
+
+.py-6 {
+  padding: 4rem 0 !important ;
+}
+
+.fs-7 {
+  font-size: 3rem;
+}
+
+.fs-8 {
+  font-size: calc(1.45rem + 0.3vw) !important;
+}
+.fs-9 {
+  font-size: calc(1.2rem + 0.3vw) !important;
+}
+
+.fs-10 {
+  font-size: 4rem;
+}
+
+.fs-18px {
+  font-size: 18px;
+}
+
+.i-fs {
+  font-size: 4.6rem;
+}
+
+.i-fs-10rem {
+  font-size: 10rem;
+}
+
+.--shrink-- {
+  transform: scaleX(1.1);
+}
+
+.filter-22 {
+  filter: saturate(1.2) brightness(0.8) contrast(1.1);
+}
+
+.color-oily {
+  color: #253d32;
+}
+
+.color-gray {
+  color: #78847d;
+}
+
+.color-limon {
+  color: #a3b938;
+}
+
+.color-orang {
+  color: #ee5007;
+}
+.cursor {
+  cursor: pointer;
+}
+
+.bg-gray {
+  background-color: #444444;
+}
+
+.text-gray {
+  color: #000000;
+}
+
+.bg-gray-light {
+  background-color: #1c1919ab;
+}
+
+.--font-outfit {
+  font-family: "Outfit", sans-serif;
+}
+
+/*---------------------------------------
+End customize bootStrab classes           
+-----------------------------------------*/
+
+/*---------------------------------------
+Start Style In WebSite           
+-----------------------------------------*/
+
+/* ====================
+لتثبيت ال Navbar
+===================== */
+#Nav-bar {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  z-index: 1000;
+}
+/* -------------
+---------------*/
+
+.c-items {
+  height: 70vh !important;
+}
+
+.c-imgs {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.c-img-3 {
+  height: 100%;
+  object-fit: cover;
+  filter: blur(3px);
+}
+
+.i-3rem {
+  font-size: 3rem;
+}
+
+/* 
+*/
+
+/* ------------
+Are U Ready style
+----------------*/
+#Sec-4-Are-U-ready {
+  background: linear-gradient(#1c1919b9, #1c1919b0), url(./Photo/img-body.jpeg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* #Sec-4-Are-U-ready {
+  background: linear-gradient(#1c1919b9, #1c1919b0), url(/Photo/img-body.jpeg);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position: bottom;
+  
+} */
+
+@media (max-width: 950px) {
+  #Sec-4-Are-U-ready {
+    background: linear-gradient(#1c1919b9, #1c1919b0),
+      url(./Photo/img-body.jpeg);
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+}
+/* ------------
+Are U Ready style
+----------------*/
+
+.img-lab {
+  height: 20rem;
+  width: 30rem;
+}
+
+.site-header {
+  /* background-color: #f8cb2e; */
+  background-color: #a33232;
+
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.sticky-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin-top: 51px;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+/* ------------
+See What style
+----------------*/
+
+#Sec-6-See-what {
+  background: linear-gradient(#1c1919b9, #1c1919b0), url(./Photo/img-body.jpeg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+
+/* ------------
+See What style
+----------------*/
+
+.bottom-h1 {
+  top: 65.5%;
+}
+
+@media (max-width: 400px) {
+  .bottom-h1 {
+    top: 60%;
+  }
+}
+
+.bottom-25 {
+  bottom: 25%;
+}
+
+/*------------
+key frame to do shake
+------------*/
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+/*------------
+key frame to do shake
+------------*/
+
+.shake:hover {
+  animation-name: shake;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  cursor: pointer;
+}
+
+/* 
+ */
+
+/* .carousel-text {
+  height: 8rem;
+} */
+
+.accordion-button {
+  font-size: 2rem;
+}
+
+/* --------------
+Accordion Style 
+------------------- */
+.accordion-item {
+  border: 1px solid rgba(88, 122, 160, 0.15);
+}
+
+.accordion-button:not(.show) {
+  color: inherit;
+  background: #a33232;
+  color: #e8e8e8;
+}
+
+.accordion-button:not(.collapsed) {
+  color: inherit;
+  background: rgba(35, 65, 100);
+  color: #e8e8e8;
+}
+
+.accordion-body {
+  color: inherit;
+  background: rgba(255, 255, 255, 0.973);
+  color: #000000b9;
+}
+
+/* --------------
+Accordion Style 
+------------------- */
+
+label {
+  color: #202020;
+  text-align: start;
+}
+
+.carousel-caption {
+  text-align: start !important;
+}
+
+.modal {
+  text-align: start !important;
+}
+
+footer {
+  background-color: #232122c9;
+}
+
+/* --------------------------------
+START Transition Delay Sec Labtoob 
+---------------------------------- */
+#Section-5-LapTop {
+  cursor: pointer;
+}
+/* ----------
+Start X Axis 
+-----------*/
+/* @media (max-width: 1800px) {
+  #Section-5-LapTop:hover .article-lab {
+    transform: translateX(80%);
+    transition: 1s;
+    transition-delay: 0.5s;
+  }
+
+  #Section-5-LapTop:hover .img-lab {
+    transform: translateX(-160%);
+    transition: 1s;
+  }
+}
+
+@media (max-width: 1400px) {
+  #Section-5-LapTop:hover .article-lab {
+    transform: translateX(100%);
+    transition: 1s;
+    transition-delay: 0.5s;
+  }
+
+  #Section-5-LapTop:hover .img-lab {
+    transform: translateX(-130%);
+    transition: 1s;
+  }
+}
+
+@media (max-width: 1228px) {
+  #Section-5-LapTop:hover .article-lab {
+    transform: translateX(94%);
+    transition: 1s;
+    transition-delay: 0.5s;
+  }
+
+  #Section-5-LapTop:hover .img-lab {
+    transform: translateX(-125%);
+    transition: 1s;
+  }
+}
+
+@media (max-width: 1195px) {
+  #Section-5-LapTop:hover .article-lab {
+    transform: translateX(107%);
+    transition: 1s;
+    transition-delay: 0.5s;
+  }
+
+  #Section-5-LapTop:hover .img-lab {
+    transform: translateX(-108%);
+    transition: 1s;
+  }
+}
+
+@media (max-width: 1066px) {
+  #Section-5-LapTop:hover .article-lab {
+    transform: translateX(107%);
+    transition: 1s;
+    transition-delay: 0.5s;
+  }
+
+  #Section-5-LapTop:hover .img-lab {
+    transform: translateX(-100%);
+    transition: 1s;
+  }
+} */
+
+/* ----------
+Start y Axis 
+-----------*/
+@media (max-width: 994px) {
+  .img-lab {
+    margin-top: 3rem;
+  }
+}
+
+/* @media (max-width: 994px) {
+  #Section-5-LapTop:hover .article-lab {
+    transform: translateY(85%);
+    transition: 1s;
+    transition-delay: 0.5s;
+  }
+
+  #Section-5-LapTop:hover .img-lab {
+    transform: translateY(-1%);
+    transition: 1s;
+  }
+}
+
+@media (max-width: 991px) {
+  #Section-5-LapTop:hover .article-lab {
+    transform: translateY(85%);
+    transition: 1s;
+    transition-delay: 0.5s;
+  }
+
+  #Section-5-LapTop:hover .img-lab {
+    transform: translateY(-150%);
+    transition: 1s;
+  }
+}
+
+@media (max-width: 1160px) {
+  .article-lab h4 {
+    font-size: 1.3rem !important;
+  }
+  .article-lab br {
+    display: none;
+  }
+}
+
+@media (max-width: 485px) {
+  #Section-5-LapTop:hover .article-lab {
+    transform: translateY(60%);
+    transition: 1s;
+    transition-delay: 0.5s;
+  }
+
+  #Section-5-LapTop:hover .img-lab {
+    transform: translateY(-190%);
+    transition: 1s;
+  }
+}
+
+@media (max-width: 418px) {
+  #Section-5-LapTop:hover .article-lab {
+    transform: translateY(50%);
+    transition: 1s;
+    transition-delay: 0.5s;
+  }
+
+  #Section-5-LapTop:hover .img-lab {
+    transform: translateY(-220%);
+    transition: 1s;
+  }
+}
+
+@media (max-width: 349px) {
+  #Section-5-LapTop:hover .article-lab {
+    transform: translateY(50%);
+    transition: 1s;
+    transition-delay: 0.5s;
+  }
+
+  #Section-5-LapTop:hover .img-lab {
+    transform: translateY(-245%);
+    transition: 1s;
+  }
+} */
+
+/* --------------------------------
+End Transition Delay Sec Labtoob 
+---------------------------------- */
+
+/* ---------------
+    Animation Header Move
+  --------------- */
+@keyframes move {
+  from {
+    transform: translateX(-35%);
+  }
+  to {
+    transform: translateX(105%);
+  }
+}
+
+#massege-header {
+  animation: move 15s infinite linear;
+}
+#massege-header:hover {
+  animation-play-state: paused;
+}
+/* 
+ */
+
+.Mant-utd {
+  color: rgb(234, 234, 236);
+  transition: 0.5s ease-in-out all;
+}
+
+.Mant-utd:hover {
+  color: rgb(230, 28, 28);
+}
+
+.i44 {
+  transition: transform 0.5s ease-in-out; /* تعيين الانتقال للخاصية التي تريد تغييرها */
+}
+
+.i44:hover {
+  transform: scale(1.2);
+}
